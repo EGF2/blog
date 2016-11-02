@@ -573,6 +573,13 @@ body.nav-opened .site-wrapper {
    4. General - The main styles for the the theme
    ========================================================================== */
 
+/* Disqus */
+
+#disqus_thread {
+  width: 55%;
+  margin: 0 auto;
+}
+
 /* Big cover image on the home page */
 .main-header {
     position: relative;
@@ -1020,12 +1027,9 @@ body:not(.page-template) .post-title {
     font-size: 3.6rem;
 }
 
-.post-title {
-  color: #4a508a;
-}
-
 .post-title a {
     text-decoration: none;
+    color: #4a508a;
 }
 
 .post-excerpt p {
