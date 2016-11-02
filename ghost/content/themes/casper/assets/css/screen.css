@@ -1027,6 +1027,10 @@ body:not(.page-template) .post-title {
     font-size: 3.6rem;
 }
 
+.post-title {
+    color: #4a508a;
+}
+
 .post-title a {
     text-decoration: none;
     color: #4a508a;
